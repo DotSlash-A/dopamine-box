@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { HeroParallax } from "../components/ui/hero-parallax";
+// import products from "../components/ui/hero-parallax";
 // import { IconName } from "@tabler/icons-react";
 
 import { cn } from "@/utils/cn";
@@ -21,7 +22,31 @@ export function HeroParallaxDemo() {
 export const products = [
   {
     title: "My notes",
-    link: "https://drive.google.com/file/d/1GXixd8ibNXTo_7ZVFR2WqVgvOezn1nLr/view?usp=sharing",
+    link: "/snowflake.pdf",
+    thumbnail:
+      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
+  },
+  {
+    title: "My notes",
+    link: "/snowflake.pdf",
+    thumbnail:
+      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
+  },
+  {
+    title: "My notes",
+    link: "/snowflake.pdf",
+    thumbnail:
+      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
+  },
+  {
+    title: "My notes",
+    link: "/snowflake.pdf",
+    thumbnail:
+      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
+  },
+  {
+    title: "My notes",
+    link: "/snowflake.pdf",
     thumbnail:
       "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
   },
