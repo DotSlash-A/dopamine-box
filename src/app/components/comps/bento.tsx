@@ -21,6 +21,7 @@ export default function Bento() {
           description={item.description}
           header={item.header}
           icon={item.icon}
+          link={item.link}
           className={i === 3 || i === 6 ? "md:col-span-2" : ""}
         />
       ))}
@@ -32,8 +33,9 @@ const Skeleton = () => (
 );
 const items = [
   {
-    title: "The Dawn of Innovation",
-    description: "Explore the birth of groundbreaking ideas and inventions.",
+    title: "My Resume",
+    description: "Learn about my education and work experiences",
+    link: "/snowflake.pdf",
     header: <Skeleton />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
