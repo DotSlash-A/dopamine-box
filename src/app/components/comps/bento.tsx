@@ -23,6 +23,9 @@ export default function bento() {
           header={item.header}
           className={cn("[&>p:text-lg]", item.className)}
           icon={item.icon}
+          link={
+            "https://drive.google.com/file/d/1GXixd8ibNXTo_7ZVFR2WqVgvOezn1nLr/view?usp=drive_link"
+          }
         />
       ))}
     </BentoGrid>
