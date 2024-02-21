@@ -25,7 +25,7 @@ export const BentoGridItem = ({
   description,
   header,
   icon,
-  link = "https://google.com",
+  link = "https://drive.google.com/file/d/1GXixd8ibNXTo_7ZVFR2WqVgvOezn1nLr/view?usp=drive_link",
 }: {
   className?: string;
   title?: string | React.ReactNode;
