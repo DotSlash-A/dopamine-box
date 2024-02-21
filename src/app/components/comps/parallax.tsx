@@ -12,12 +12,7 @@ export const products = [
     thumbnail:
       "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
   },
-  {
-    title: "Cursor",
-    link: "https://drive.google.com/file/d/1GXixd8ibNXTo_7ZVFR2WqVgvOezn1nLr/view?usp=drive_link",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
-  },
+
   {
     title: "Rogue",
     link: "https://drive.google.com/file/d/1GXixd8ibNXTo_7ZVFR2WqVgvOezn1nLr/view?usp=drive_link",
@@ -50,12 +45,7 @@ export const products = [
     thumbnail:
       "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
   },
-  {
-    title: "Aceternity UI",
-    link: "https://drive.google.com/file/d/1GXixd8ibNXTo_7ZVFR2WqVgvOezn1nLr/view?usp=drive_link",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
-  },
+
   {
     title: "Tailwind Master Kit",
     link: "https://drive.google.com/file/d/1GXixd8ibNXTo_7ZVFR2WqVgvOezn1nLr/view?usp=drive_link",
@@ -73,30 +63,5 @@ export const products = [
     link: "https://drive.google.com/file/d/1GXixd8ibNXTo_7ZVFR2WqVgvOezn1nLr/view?usp=drive_link",
     thumbnail:
       "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
-  },
-
-  {
-    title: "Creme Digital",
-    link: "https://drive.google.com/file/d/1GXixd8ibNXTo_7ZVFR2WqVgvOezn1nLr/view?usp=drive_link",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
-  },
-  {
-    title: "Golden Bells Academy",
-    link: "https://drive.google.com/file/d/1GXixd8ibNXTo_7ZVFR2WqVgvOezn1nLr/view?usp=drive_link",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
-  },
-  {
-    title: "Invoker Labs",
-    link: "https://drive.google.com/file/d/1GXixd8ibNXTo_7ZVFR2WqVgvOezn1nLr/view?usp=drive_link",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/invoker.png",
-  },
-  {
-    title: "E Free Invoice",
-    link: "https://drive.google.com/file/d/1GXixd8ibNXTo_7ZVFR2WqVgvOezn1nLr/view?usp=drive_link",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
   },
 ];
