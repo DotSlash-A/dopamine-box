@@ -7,9 +7,11 @@ import { cn } from "@/utils/cn";
 export const EvervaultCard = ({
   text,
   className,
+  link,
 }: {
   text?: string;
   className?: string;
+  link?: string;
 }) => {
   let mouseX = useMotionValue(0);
   let mouseY = useMotionValue(0);

@@ -12,12 +12,19 @@ export default function EvervaultCardDemo() {
       <EvervaultCard text="hover" />
 
       <h2 className="dark:text-white text-black mt-4 text-sm font-light">
-        Hover over this card to reveal an awesome effect. Running out of copy
-        here.
+        Evervault Card
       </h2>
-      <p className="text-sm border font-light dark:border-white/[0.2] border-black/[0.2] rounded-full mt-4 text-black dark:text-white px-2 py-0.5">
-        Watch me hover
-      </p>
+      <a
+        href={
+          "https://drive.google.com/file/d/1GXixd8ibNXTo_7ZVFR2WqVgvOezn1nLr/view?usp=drive_link"
+        }
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        <p className="text-sm border font-light dark:border-white/[0.2] border-black/[0.2] rounded-full mt-4 text-black dark:text-white px-2 py-0.5">
+          Snow FLake notes
+        </p>
+      </a>
     </div>
   );
 }
